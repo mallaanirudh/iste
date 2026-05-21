@@ -73,7 +73,7 @@ export const projectDetailsBySlug: Record<string, ProjectStructuredDetail> = {
       "Hybrid renewable integration",
       "Life cycle environmental analysis",
     ],
-    budget: "Rs. 0 (software project)",
+    budget: "None",
   },
   "waste-heat-recovery-orc": {
     mentors: ["Sanjo Kedavath", "Dathu Vikas", "Shubhank Hiremath"],
@@ -100,7 +100,7 @@ export const projectDetailsBySlug: Record<string, ProjectStructuredDetail> = {
       "Extend to boilers, condensers and reactors",
       "Integrate with IoT fleet monitoring",
     ],
-    budget: "Rs. 0 (software project)",
+    budget: "None",
   },
   "real-time-ai-cfd-hazard-detection": {
     mentors: ["Kshama Rai", "Garima Yadav", "Shanul Haque"],
@@ -129,7 +129,7 @@ export const projectDetailsBySlug: Record<string, ProjectStructuredDetail> = {
       "Increase geometry and process complexity",
       "Integrate real plant sensor feeds",
     ],
-    budget: "Rs. 0 (software project)",
+    budget: "None",
   },
   "autonomous-navigation-robot": {
     mentors: ["Kaif", "Nisha", "Venkatesh"],
@@ -287,7 +287,7 @@ export const projectDetailsBySlug: Record<string, ProjectStructuredDetail> = {
       "FPGA and hardware ports",
       "GUI secure tools",
     ],
-    budget: "Rs. 0 (software project)",
+    budget: "None",
   },
   "a-day-in-the-life": {
     mentors: ["Nisha", "Arjun", "Ivine", "Siddarthan"],
@@ -500,7 +500,7 @@ export const projectDetailsBySlug: Record<string, ProjectStructuredDetail> = {
   },
   "pavement-condition-index-ml": {
     mentors: ["Tushar", "Piyush", "Vijay"],
-    mentees: [],
+    mentees: ["R jeevani", "Swati Hamphiholi", "Saish Patil","Vineesh Kumar"],
     problem:
       "Manual PCI assessment is resource-heavy, subjective and expensive for large road networks.",
     objectives: [
@@ -583,7 +583,7 @@ export const projectDetailsBySlug: Record<string, ProjectStructuredDetail> = {
   },
   "seismic-hazard-zonation-nw-himalaya": {
     mentors: ["Sahitya", "Shreyas", "Vinit"],
-    mentees: [],
+    mentees: ["Hitee Yadav", "Akhand Bhardwaj", "Prithviraj Thokare", "Vismaya KK"],
     problem:
       "Macro-scale seismic maps do not capture local risk variations in complex NW Himalayan tectonics.",
     objectives: [
@@ -610,8 +610,8 @@ export const projectDetailsBySlug: Record<string, ProjectStructuredDetail> = {
     budget: "NIL",
   },
   "the-final-semester": {
-    mentors: ["Create SIG Mentors Team"],
-    mentees: ["Create SIG Mentees Team"],
+    mentors: ["Pranav S, Ujjwal, Shreyas, Tanush, Kenisha"],
+    mentees: ["Aditya, Chris, Raghava, Rose, Vairavi"],
     about:
       "2D pixel survival game built around NITK campus map with exploration, combat and AI enemies.",
     objectives: [
@@ -634,7 +634,7 @@ export const projectDetailsBySlug: Record<string, ProjectStructuredDetail> = {
       "A-star pathfinding enhancements",
       "Mobile builds",
     ],
-    budget: "Rs. 0 (software project)",
+    budget: "None",
   },
   "artin-indian-art-textiles": {
     mentors: ["Create SIG Mentors Team"],
@@ -662,7 +662,7 @@ export const projectDetailsBySlug: Record<string, ProjectStructuredDetail> = {
       "Artisan commerce integration",
       "Mobile app version",
     ],
-    budget: "Rs. 0 (software project)",
+    budget: "None",
   },
   "escape-room-3d-puzzle-game": {
     mentors: ["Create SIG Mentors Team"],
@@ -689,7 +689,7 @@ export const projectDetailsBySlug: Record<string, ProjectStructuredDetail> = {
       "Wider language support",
       "Cross-platform mobile release",
     ],
-    budget: "Rs. 0 (software project)",
+    budget: "None",
   },
   "industry-disruption-analysis": {
     mentors: ["Mithul", "Chethana", "Hriday"],
@@ -915,6 +915,22 @@ export const projectDetailsBySlug: Record<string, ProjectStructuredDetail> = {
     outcomes: [
       "Cross-client learning without data sharing",
       "Compliance-friendly risk analysis of contracts",
+    ],
+    budget: "Components/Budget: NONE",
+  },
+  "nitk-assist": {
+    mentors: ["Pranav", "Kshitij", "Sahil"],
+    mentees: ["Ishita", "Prashasti", "Aryan", "Jiya"],
+    about:
+      "An Agentic Retrieval-Augmented Generation Platform.",
+    methodology: [
+      "Data Preprocessing.",
+      "Backend Development.",
+      "RAG Implementation.",
+      "Frontend integration with automation pipeline.",
+    ],
+    outcomes: [
+      "It demonstrates improved query understanding and response generation using modern AI techniques",
     ],
     budget: "Components/Budget: NONE",
   },

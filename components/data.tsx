@@ -520,7 +520,7 @@ export const projects: Project[] = [
     status: "In Progress",
     year: "2025-26",
     coverImage: "/clutch.jpg",
-    leads: ["Gulzaar"],
+    leads: ["Gulzaar, Jeeva, Kailas"],
   },
   {
     title: "Fire Fighting Robot",
@@ -829,6 +829,20 @@ export const projects: Project[] = [
     year: "2025-26",
     coverImage: "/crypt.jpg",
     leads: ["Abhimanyu", "Chaitanya Menon", "Shreya"],
+  },
+  {
+    title: "NITK-ASSIST",
+    slug: "nitk-assist",
+    sig: "crypt",
+    shortDescription:
+      "Intelligent query system built using KURSE (Knowlege Utilization, Retrieval, and Summarization Engine).",
+    description:
+      "It enables natural language querying for better retrieval for relevant information semantically to generate accurate and context-aware responses",
+    techStack: ["RAG", "Full-Stack", "Automation", "KURSE"],
+    status: "In Progress",
+    year: "2025-26",
+    coverImage: "/crypt.jpg",
+    leads: ["Pranav", "Kshitij", "Sahil"],
   },
 ];
 
