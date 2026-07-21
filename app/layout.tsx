@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import RouteChrome from "@/components/RouteChrome";
+import TerminalToggle from "@/app/components/TerminalToggle";
 
 
 export const metadata: Metadata = {
@@ -17,7 +18,9 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <body>
         <RouteChrome>{children}</RouteChrome>
+        <TerminalToggle />
       </body>
     </html>
   );
 }
+
