@@ -785,4 +785,12 @@ export const alumni: Alumni[] = [
     linkedinId: "rashmi-k-murthy",
     linkedinUrl: "https://in.linkedin.com/in/rashmi-k-murthy",
   },
+  {
+    name: "Likith M",
+    graduationYear: 2026,
+    organization: "Stanford",
+    location: "Santa Clara County, California, United States",
+    linkedinId: "likithm29",
+    linkedinUrl: "https://www.linkedin.com/in/likithm29/",
+  },
 ];
