@@ -20,6 +20,7 @@ export const Navbar = () => {
     { name: "Projects", href: "projects", homeSection: false },
     { name: "Events", href: "#events", homeSection: true },
     { name: "Contact", href: "#contact" },
+    {name : "Alumni",href:"/alumni",homeSection:false}
   ];
 
   const getHref = (link: { href: string; homeSection?: boolean }) => {
